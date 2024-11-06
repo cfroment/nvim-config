@@ -26,3 +26,6 @@ vim.keymap.set("n", "<leader>to", ":tabnew<CR>", opts)
 vim.keymap.set("n", "<leader>tx", ":tabclose<CR>", opts)
 vim.keymap.set("n", "<leader>tn", ":tabn<CR>", opts)
 vim.keymap.set("n", "<leader>tp", ":tabp<CR>", opts)
+
+-- toggle line wrap
+vim.keymap.set("n", "<leader>lw", ":set wrap!<CR>", opts)
