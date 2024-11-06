@@ -8,6 +8,11 @@ local opts = { noremap = true, silent = true }
 --save file
 vim.keymap.set("n", "<C-s>", "<cmd> w <CR>", opts)
 
+-- close buffer
+vim.keymap.set("n", "<leader>bd", "<cmd> bd <CR>", opts)
+-- close buffer with <C-4>
+-- vim.keymap.set("n", "<C-4>", "<cmd> bd <CR>", opts)
+
 -- vertical scroll and center
 vim.keymap.set("n", "<C-d>", "<C-d>zz", opts)
 vim.keymap.set("n", "<C-u>", "<C-u>zz", opts)

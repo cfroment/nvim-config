@@ -24,5 +24,6 @@ require("lazy").setup({
 	require("custom.plugins.toggleterm"),
 	require("custom.plugins.splash"),
 	require("custom.plugins.copilot"),
+	require("custom.plugins.comment"),
 	require("custom.plugins.misc"),
 })
